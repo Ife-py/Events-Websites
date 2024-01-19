@@ -1,0 +1,126 @@
+
+.contact__container {
+    background: #010b79;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+/* ASIDE */
+.contact{
+    margin-bottom: 0%;
+    margin-top: 150px;
+}
+.contact__aside {
+    background-color: white;
+    border-color: #010b79;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 3rem;
+}
+
+.aside__image {
+    width: 12rem;
+    height: 7rem;
+    margin-bottom: 2rem;
+    /* height: 12rem; */
+}
+
+.contact__aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contact__aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact__details li {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact__socials {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.contact__socials a {
+    background: white;
+    color: var(--color-bg);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.contact__socials a:hover {
+    background: transparent;
+}
+
+/* FORM */
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+
+.form__name {
+    display: flex;
+}
+
+.contact__form input[type="text"] {
+    width: 50%;
+
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    color: var(--color-bg);
+    background: var(--color-white);
+}
+textarea{
+    padding: 1rem  ;
+    width: 100%;
+    color: var(--color-bg);
+    background: var(--color-white);
+}
+
+.contact__form .btn {
+    width: max-content;
+    cursor: pointer;
+    margin-top: 1rem;
+    cursor: pointer;
+    background:white;
+    height: 3rem;
+    transition: var(--transition);
+}
+
+.btn btn-primary{
+    background: var(--color-bg);
+    transition: var(--transition);
+}
+
+.btn btn-primary :hover{
+    background: red;
+}
+
+
+footer{
+    margin-top: 15rem;
+}

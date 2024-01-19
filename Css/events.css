@@ -1,0 +1,60 @@
+.events__container1{
+    background: white;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.events1__container{
+    margin-top: 2rem;
+}
+.events__header{
+    text-align: center;
+}
+
+.events__image{
+    height: 33.5rem;
+    float: left;
+}
+
+.events__info4 p{
+    text-align: center;
+    float: right;
+}
+
+.events__info1 p{
+    text-align: center;
+    float: right;
+}
+
+.events__info3 p{
+    text-align: center;
+    float: right;
+}
+
+.events__info2 p{
+    text-align: center;
+    float: right;
+}
+
+.events__info1 p{
+    text-align: center;
+    float: right;
+}
+
+.imgsize1{
+    height: 35rem;
+    width: 40rem;
+}
+
+.events1__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.link a{
+    display: grid;
+    text-align:start;
+    float: right;
+    background: red;
+    height: 2rem;
+}
