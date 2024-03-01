@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <!-- SWIPER JS -->
+    <!-- SWIPERS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="swiper.css">
     <!--ICONSCOUT  CDN-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -23,27 +25,45 @@
     <nav>
         <div class=".container Events__container">
             <a href="index.html">
-                <h2><p>Group8</p></h4>
+                <h2>
+                    <p>Group8</p>
+                    </h4>
             </a>
             <ul class="nav__menu">
                 <li><a href="index.html">
-                        <h5><p>Home</p></h5>
+                        <h5>
+                            <p>Home</p>
+                        </h5>
                     </a></li>
                 <li><a href="events.html">
-                        <h5><p>Events</p></h5>
+                        <h5>
+                            <p>Events</p>
+                        </h5>
                     </a></li>
                 <li><a href="About_us.html">
-                        <h5><p>About Us</p></h5>
+                        <h5>
+                            <p>About Us</p>
+                        </h5>
                     </a></li>
                 <li><a href="contact.html">
-                        <h5><p>Contact Us</p></h5>
+                        <h5>
+                            <p>Contact Us</p>
+                        </h5>
                     </a></li>
             </ul>
         </div>
     </nav>
-    <header class="mySwiper">
+    <div class="header__image">
+        <img src="./images/pexels-luis-quintero-2774556.jpg" alt="">
+        <div class="header__info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga porro quos culpa fugiat magnam.
+                Doloremque quas corrupti, reprehenderit atque accusantium facere saepe assumenda necessitatibus neque.
+                Reprehenderit vel dolores ex?</p>
+        </div>
+    </div>
+    <!-- <header class="mySwiper">
         <div class="swiper-wrapper">
-            <div class="b swiper-slide">
+            <div class="swiper-slide">
                 <img src="./images/pexels-luis-quintero-2774556.jpg">
                 <div class="header__info">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nihil mollitia tempora
@@ -52,7 +72,8 @@
                         delectus temporibus unde quae illum?</p>
                 </div>
             </div>
-            <div class="b swiper-slide">
+            
+            <!-- <div class="swiper-slide">
                 <img src="./images/pexels-luis-quintero-2833037.jpg">
                 <div class="header__info">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nihil mollitia
@@ -66,7 +87,20 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
+        </div> -->
+    </header> -->
+    <header>
+
+        <!-- Swiper -->
+        <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div> -->
     </header>
     <section class="events">
         <h2>Upcoming Events</h2>
@@ -133,16 +167,6 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
     <footer>
         <div class="container footer__container">
             <div class="footer__1">
@@ -203,17 +227,12 @@
         </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
     <script src="./main.js"></script>
+    <script src="swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",

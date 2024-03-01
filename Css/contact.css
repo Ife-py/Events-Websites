@@ -11,10 +11,11 @@
 }
 
 /* ASIDE */
-.contact{
+.contact {
     margin-bottom: 0%;
     margin-top: 150px;
 }
+
 .contact__aside {
     background-color: white;
     border-color: #010b79;
@@ -88,14 +89,15 @@
 
 }
 
-input{
+input {
     width: 100%;
     padding: 1rem;
     color: var(--color-bg);
     background: var(--color-white);
 }
-textarea{
-    padding: 1rem  ;
+
+textarea {
+    padding: 1rem;
     width: 100%;
     color: var(--color-bg);
     background: var(--color-white);
@@ -106,21 +108,21 @@ textarea{
     cursor: pointer;
     margin-top: 1rem;
     cursor: pointer;
-    background:white;
+    background: white;
     height: 3rem;
     transition: var(--transition);
 }
 
-.btn btn-primary{
+.btn btn-primary {
     background: var(--color-bg);
     transition: var(--transition);
 }
 
-.btn btn-primary :hover{
+.btn btn-primary :hover {
     background: red;
 }
 
 
-footer{
+footer {
     margin-top: 15rem;
 }
